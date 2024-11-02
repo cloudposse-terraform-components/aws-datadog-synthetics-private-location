@@ -1,4 +1,9 @@
-output "mock" {
-  description = "Mock output example for the Cloud Posse Terraform component template"
-  value       = local.enabled ? "hello ${basename(abspath(path.module))}" : ""
+output "synthetics_private_location_id" {
+  value       = one(datadog_synthetics_private_location.this[*].id)
+  description = "Synthetics private location ID"
+}
+
+output "metadata" {
+  value       = local.enabled ? module.datadog_synthetics_private_location.metadata : null
+  description = "Block status of the deployed release"
 }

@@ -6,7 +6,7 @@ tags:
   - provider/datadog
 ---
 
-# Component: `datadog`
+# Component: `datadog-synthetics-private-location`
 
 This component provisions a Datadog synthetics private location on Datadog and a private location agent on EKS cluster.
 

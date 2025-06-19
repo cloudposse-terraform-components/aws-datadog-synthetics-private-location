@@ -174,7 +174,7 @@ Environment variables:
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_datadog_configuration"></a> [datadog\_configuration](#module\_datadog\_configuration) | github.com/cloudposse-terraform-components/aws-datadog-credentials//src/modules/datadog_keys | tags/v1.535.2 |
+| <a name="module_datadog_configuration"></a> [datadog\_configuration](#module\_datadog\_configuration) | github.com/cloudposse-terraform-components/aws-datadog-credentials//src/modules/datadog_keys | v1.535.3 |
 | <a name="module_datadog_synthetics_private_location"></a> [datadog\_synthetics\_private\_location](#module\_datadog\_synthetics\_private\_location) | cloudposse/helm-release/aws | 0.10.1 |
 | <a name="module_eks"></a> [eks](#module\_eks) | cloudposse/stack-config/yaml//modules/remote-state | 1.8.0 |
 | <a name="module_iam_roles"></a> [iam\_roles](#module\_iam\_roles) | ../account-map/modules/iam-roles | n/a |

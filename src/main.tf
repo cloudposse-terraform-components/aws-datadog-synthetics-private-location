@@ -3,7 +3,7 @@ locals {
 
   # https://docs.datadoghq.com/synthetics/private_locations/configuration
   # docker run --rm datadog/synthetics-private-location-worker --help
-  private_location_config = jsondecode(join("", datadog_synthetics_private_location.this.*.config))
+  private_location_config = jsondecode(join("", datadog_synthetics_private_location.this[*].config))
 }
 
 resource "datadog_synthetics_private_location" "this" {
